@@ -1,0 +1,191 @@
+
+.App {
+  text-align: center;
+}
+.facebook{
+  background-image: url(./images/fb.JPG);
+  width: 50%;
+  height: 10vh;
+  margin: 0 10px 10px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.google{
+  background-image: url(./images/google.JPG);
+  width: 50%;
+  height: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.inst{
+  background-image: url(./images/insta.JPG);
+  width: 50%;
+  height: 10vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.linkedin{
+  background-image: url(./images/linkedin.JPG);
+  width: 50%;
+  height: 10vh;
+  margin: 0 10px 0 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container{
+  background-image: url(./images/Template.jpeg);
+  border: 1px solid black;
+  width: 40%;
+  zoom: 0.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 250vh;
+}
+.input2{
+  flex-grow:2;
+  border:none;
+  font-size:30px;
+}
+input:focus {
+  /* removing the input focus blue box. Put this on the form if you like. */
+  outline: none;
+}
+.float-container {
+  padding: 0 8px;
+  position: relative;
+}
+.float-container input {
+  font-size: 16px;
+  margin: 16px 0 10px;
+}
+label {
+  font-size: 20px;
+  position: absolute;
+  transform-origin: top left;
+  transform: translate(0, 16px) scale(1);
+  transition: all .1s ease-in-out;
+}
+.float-container.active label {
+  transform: translate(0, 4px) scale(.75);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn{
+  width: 20%;
+  color: red;
+  margin: 3% 3% 3% -5px;
+  border: 2px solid red;
+  background-color:white;
+  font-size: 22px;
+}
+.create{
+  margin-top: 15px;
+  padding:3%;
+  /* background-color: red;
+  color: white; */
+  padding:20px 0 40px 0;
+
+ font-size: 26px;
+ width: 55em;
+ height:90px;
+ border: none;
+
+}
+.login{
+  margin-top: 15px;
+ padding:20px 0 40px 0;
+
+ /* background-color: white;
+ color: red; */
+ font-size: 26px;
+ width: 55em;
+ height:90px;
+ border: none;
+
+}
+.button{
+  margin-top: 15px;
+  margin-left:50%;
+ background-color: red;
+ color: white;
+ font-weight:bolder;
+ font-size: 27px;
+ width: 140px;
+ height:50px
+}
+.align{
+  position: absolute;
+  margin-top: 95%;
+  margin-left: 21%;
+  max-width: 300px;
+  padding: 16px;
+}
+.align1{
+  position: absolute;
+  margin-top: 119%;
+  margin-left: 25%;
+  max-width: 400px;
+  padding: 16px;
+}
+.align2{
+  position: absolute;
+  margin-top: 119%;
+  margin-left: 25%;
+  max-width: 400px;
+  padding: 16px;
+}
+.form {
+  /* This bit sets up the horizontal layout */
+  display:flex;
+  flex-direction:row;
+  height:70px;
+  width:140%;
+  border: 0.2em solid grey;
+background-color: white;
+  /* I've used padding so you can see the edges of the elements. */
+  padding:2px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
